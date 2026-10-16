@@ -1,0 +1,12 @@
+# Process Charter: Knowledge & Event Management
+
+## 1. Process Objective
+* **Knowledge Management:** Build an accessible Knowledge Base (KB) to accelerate First Contact Resolution (FCR).
+* **Event Management:** Monitor infrastructure health (servers, network latency, links) to detect and resolve issues before business impact occurs.
+
+## 2. Event Thresholds & Actions
+| Event Type | Condition / Threshold | Action Taken |
+| :--- | :--- | :--- |
+| **Informational** | Backup completed / User logged in | Logged to system history |
+| **Warning** | CPU/Memory Usage > 85% for 10 mins | Automated alert to Infrastructure Team |
+| **Exception / Alert** | Primary Internet Link Down | Auto-generate P1/P2 Incident Ticket |
