@@ -1,0 +1,8 @@
+# Process Charter: Software Asset Management (SAM)
+
+## 1. Process Objective
+Ensure software license compliance, optimize enterprise license costs (M365, Oracle, SAP), and eliminate unauthorized software usage.
+
+## 2. Core Activities
+* **License Inventory Audit:** Routine automated reconciliation of deployed vs. purchased licenses.
+* **License Reclamation:** Automatic revocation of unused licenses (> 30 days inactive) to optimize IT budget.
