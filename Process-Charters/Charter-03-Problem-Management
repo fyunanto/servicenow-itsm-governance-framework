@@ -1,0 +1,11 @@
+# Process Charter: IT Problem Management
+
+## 1. Process Objective
+Analyze the root cause of recurring or major incidents (P1/P2) and design permanent fixes (Known Error Database) to prevent incident recurrence.
+
+## 2. Process Workflow
+```text
+[ Major/Repeated Incident ] ──> [ RCA Investigation (5-Whys / Fishbone) ]
+                                          │
+                                          ▼
+[ Workaround / Known Error Logged ] ──> [ Permanent Fix via Change Request (CR) ]
