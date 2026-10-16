@@ -1,0 +1,9 @@
+# Process Charter: Release & Deployment Management
+
+## 1. Process Objective
+Plan, schedule, and test software releases into production environments while safeguarding the integrity of existing live services.
+
+## 2. Deployment Environments
+1. **Development (DEV):** Local build and development environment.
+2. **Staging / UAT:** Functional testing and user acceptance environment.
+3. **Production (PROD):** Live business environment (deployments restricted to scheduled maintenance windows).
