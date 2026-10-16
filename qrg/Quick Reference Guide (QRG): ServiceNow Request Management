@@ -1,0 +1,65 @@
+1. Overview & Key Concepts
+
+Service Request: A formal request from a user for something to be provided, added, moved, or changed (e.g., hardware, software access, standard IT services).
+
+Request Fulfillment: The process of managing the lifecycle of all service requests from submission to closure.
+
+Objective: Ensure service requests are processed efficiently, accurately, and through predefined standard workflows.
+
+2. Request Data Structure & Hierarchy
+
+Request Management in ServiceNow follows a three-level hierarchy:
+
+[ REQ ] Request (Header / Order Number)
+   │
+   └── [ RITM ] Requested Item (Specific Item/Service Requested)
+          │
+          └── [ SCTASK ] Service Catalog Task (Operational Execution Steps)
+
+
+Request (REQ): The parent record representing the overall order placed by the user.
+
+Requested Item (RITM): The specific catalog item or service selected (a single Request can contain multiple RITMs).
+
+Service Catalog Task (SCTASK): The discrete work assignment(s) created for fulfillment teams (Fulfillers) to execute the request.
+
+3. End-to-End Request Lifecycle
+
+[ User Submits Request ] ──► [ Approval Workflow ] ──► [ Task Assignment ] ──► [ Execution & Closure ]
+
+
+Step 1: Request Submission
+
+Users navigate to the Self-Service Portal / Service Catalog.
+
+Users select the required item/service, fill in necessary parameters, and submit the request.
+
+Step 2: Approvals (If Applicable)
+
+If the item requires managerial or financial approval, system notifications are automatically dispatched to the designated approver.
+
+The request remains in Pending Approval state until approved.
+
+If rejected, the request is canceled automatically, and the requester is notified.
+
+Step 3: Task Assignment & Fulfillment
+
+Upon approval, the system triggers the predefined workflow and generates one or more Catalog Tasks (SCTASK).
+
+Tasks are assigned to the respective Fulfiller Group.
+
+Fulfillers access their queue via Service Desk > My Groups Work or Work Overview.
+
+Fulfillers update task status (In Progress, Work Notes, etc.) during execution.
+
+Step 4: Resolution & Auto-Closure
+
+When all associated Catalog Tasks (SCTASK) are marked as Closed Complete, the parent Requested Item (RITM) and Request (REQ) are automatically updated to Closed Complete.
+
+4. Fulfiller Best Practices
+
+Work Notes vs. Additional Comments: Use Work Notes for internal technical updates visible only to IT staff. Use Additional Comments to communicate directly with the end-user.
+
+Timely Updates: Always move tasks to In Progress when work begins to maintain accurate metrics and SLA tracking.
+
+Task Closure: Ensure all prerequisites and verifications are completed before closing a task.
