@@ -1,0 +1,7 @@
+# Operational Playbook: ServiceNow Incident Management SOP
+
+## 1. Incident Lifecycle & Workflow Stages
+This Standard Operating Procedure (SOP) defines the operational workflow for managing IT incidents within the ServiceNow platform, ensuring rapid service restoration and SLA compliance.
+
+```text
+[ Detect & Log ] ──> [ Prioritize & Assign ] ──> [ Resolve & Recover ] ──> [ Follow-up & Close ]
