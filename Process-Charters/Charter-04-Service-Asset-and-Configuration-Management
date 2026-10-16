@@ -1,0 +1,12 @@
+# Process Charter: Service Asset & Configuration Management (SACM)
+
+## 1. Process Objective
+Accurately manage and maintain Configuration Items (CIs) and their relationships in the Configuration Management Database (CMDB) to support Incident, Problem, and Change Management workflows.
+
+## 2. CI Categories
+1. **Hardware:** Servers, Routers, Switches, Access Points, Laptops, POS Terminals.
+2. **Software:** Operating Systems, Enterprise ERP, Databases, Antivirus, Custom Apps.
+3. **Cloud & Network Services:** Cloud Subscriptions, VPN Connections, SD-WAN Tunnels.
+
+## 3. Verification & Audit
+* **Audit Schedule:** Physical and virtual audits conducted bi-annually to verify CMDB accuracy.
