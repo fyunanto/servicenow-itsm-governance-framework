@@ -1,0 +1,19 @@
+# Process Charter: IT Incident Management
+
+## 1. Process Objective
+Restore normal IT service operations as quickly as possible following an incident or disruption, minimizing negative impact on business performance.
+
+## 2. Severity & SLA Matrix
+| Severity Level | Definition | Response Target | Resolution Target | Escalation Path |
+| :--- | :--- | :--- | :--- | :--- |
+| **P1 - Critical** | Core ERP or regional WAN down nationwide | < 15 Mins | < 2 Hours | IT Manager -> Executive Management |
+| **P2 - High** | Major branch disruption / key function blocked | < 30 Mins | < 4 Hours | Infrastructure Lead |
+| **P3 - Medium** | Partial disruption / workaround available | < 2 Hours | < 8 Hours | Tier 2 Support |
+| **P4 - Low** | Individual / minor issue | < 4 Hours | < 24 Hours | Tier 1 Service Desk |
+
+## 3. Workflow Steps
+1. **Identification & Logging:** Ticket created in ServiceNow.
+2. **Categorization & Prioritization:** Severity assigned (P1 - P4).
+3. **Diagnosis & Investigation:** Initial analysis by Tier 1 / Tier 2.
+4. **Resolution & Recovery:** Application of fix or workaround.
+5. **Closure:** User verification and ticket closure.
