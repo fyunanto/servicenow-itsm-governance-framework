@@ -1,0 +1,18 @@
+# Enterprise Process Charter: ITSM Incident & Change Management
+
+## 1. Process Overview
+* **Process Name:** Enterprise Incident & Change Escalation Process
+* **Process Owner:** Country IT Manager
+* **Target Audience:** IT Service Desk, Regional Network Engineers, Third-Party Vendors
+
+## 2. Process Governance & Roles (RACI Matrix)
+| Role / Function | Incident Response | CAB Review | Emergency Change Execution |
+| :--- | :--- | :--- | :--- |
+| **Country IT Manager** | Accountable (A) | Approver (A) | Responsible (R) |
+| **Lead Engineer** | Responsible (R) | Consulted (C) | Executing (R) |
+| **Service Desk Lead** | Support (S) | Informed (I) | Informed (I) |
+
+## 3. Key Performance Indicators (KPIs) & Process Control
+* **First Contact Resolution (FCR):** > 70%
+* **SLA Compliance Rate:** > 99%
+* **Unplanned Change Rate:** < 2%
