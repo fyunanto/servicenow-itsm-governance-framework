@@ -1,0 +1,10 @@
+# Process Charter: Hardware Asset Management (HAM)
+
+## 1. Process Objective
+Manage the hardware asset lifecycle from procurement and tagging to maintenance and eco-friendly disposal (E-Waste).
+
+## 2. Hardware Lifecycle Stages
+```text
+[ Procurement ] ──> [ Inventory Tagging / CMDB ] ──> [ Active Deployment ]
+                                                           │
+[ E-Waste / Disposal ] <── [ Decommissioning ] <───────────┘
