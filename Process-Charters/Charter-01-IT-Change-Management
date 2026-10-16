@@ -1,11 +1,11 @@
 # Process Charter: IT Change Management
 
 ## 1. Process Objective
-Meningkatkan stabilitas operasional IT dan meminimalkan risiko gangguan bisnis (*unplanned downtime*) melalui mekanisme evaluasi, persetujuan, dan kontrol eksekusi perubahan infrastruktur dan aplikasi secara terstruktur.
+Enhance IT operational stability and minimize business disruption (unplanned downtime) by evaluating, approving, and executing infrastructure and application changes in a structured manner.
 
 ## 2. Process Scope
-* **In Scope:** Seluruh perubahan pada Hardware, Network, Server, Software, Database, dan Cloud Infrastructure di seluruh lingkungan produksi (*Production*).
-* **Out of Scope:** Permintaan layanan rutin user (dikelola via *Service Request Management*).
+* **In Scope:** All changes to Hardware, Network, Servers, Software, Databases, and Cloud Infrastructure in Production environments.
+* **Out of Scope:** Standard user service requests (handled via Service Request Management).
 
 ## 3. RACI Matrix
 | Role / Function | Request Creation | CAB Review & Risk Assessment | Execution | Post-Implementation Review (PIR) |
@@ -14,7 +14,7 @@ Meningkatkan stabilitas operasional IT dan meminimalkan risiko gangguan bisnis (
 | **Change Advisory Board (CAB)** | **I** (Informed) | **A** (Accountable) | **I** (Informed) | **A** (Accountable) |
 | **Infrastructure / Dev Team** | **C** (Consulted) | **C** (Consulted) | **R** (Responsible) | **R** (Responsible) |
 
-## 4. Key Metrics (KPIs)
+## 4. Key Performance Indicators (KPIs)
 * **Success Rate of Changes:** ≥ 98%
-* **Emergency Change Ratio:** < 5% dari total Change Request
-* **Unplanned Outages caused by Changes:** 0 Incidents (Target)
+* **Emergency Change Ratio:** < 5% of total Change Requests
+* **Unplanned Outages Caused by Changes:** 0 Incidents (Target)
