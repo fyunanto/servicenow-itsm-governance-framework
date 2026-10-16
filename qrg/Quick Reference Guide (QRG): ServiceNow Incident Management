@@ -1,0 +1,83 @@
+1. Overview & Key Concepts
+
+Incident: An unplanned interruption to an IT service or a reduction in the quality of an IT service (e.g., system outage, application crash, printer malfunction).
+
+Objective: Restore normal service operation as quickly as possible and minimize business impact.
+2. Incident Lifecycle
+
+[ Identification & Logging ] ──► [ Categorization & Prioritization ] ──► [ Investigation & Diagnosis ] ──► [ Resolution & Closure ]
+
+
+3. Key Process Steps
+
+Step 1: Identification & Logging
+
+Incidents are logged automatically (via monitoring/email) or manually by the Service Desk/User via the portal.
+
+Mandatory fields must be completed: Caller, Short Description, Category, and Subcategory.
+Step 2: Categorization & Prioritization
+
+Impact: Measures the effect of the incident on business operations (High, Medium, Low).
+
+Urgency: Measures how quickly the incident requires resolution (High, Medium, Low).
+
+Priority Matrix: Calculated automatically based on Impact and Urgency:
+Impact \ Urgency
+
+High (1)
+
+Medium (2)
+
+Low (3)
+
+High (1)
+
+Critical (P1)
+
+High (P2)
+
+Moderate (P3)
+
+Medium (2)
+
+High (P2)
+
+Moderate (P3)
+
+Low (P4)
+
+Low (3)
+
+Moderate (P3)
+
+Low (P4)
+
+Step 3: Investigation & Diagnosis
+
+Assign the incident to the appropriate Assignment Group and Assigned To individual.
+
+Move state to In Progress.
+
+Document diagnostic steps in Work Notes.
+
+If waiting on user information, vendor action, or a dependent change, set state to On Hold with an appropriate On Hold Reason.
+
+Step 4: Resolution & Closure
+
+Once service is restored, select an appropriate Resolution Code (e.g., Solved (Permanently), Solved (Workaround)) and enter Resolution Notes.
+
+Change state to Resolved.
+
+The incident will automatically close (Closed) after the defined auto-closure period if no further action is taken by the requester.
+
+4. Fulfiller Quick Checklist
+
+[ ] Verify caller and contact information.
+
+[ ] Ensure correct Category and Subcategory are set.
+
+[ ] Validate Priority calculation (Impact vs. Urgency).
+
+[ ] Keep state up to date (In Progress, On Hold, Resolved).
+
+[ ] Provide clear, customer-friendly resolution details upon completion.
